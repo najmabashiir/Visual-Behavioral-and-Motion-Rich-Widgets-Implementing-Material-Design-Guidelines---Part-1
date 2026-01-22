@@ -12,7 +12,7 @@ class Mybottom extends StatelessWidget {
           fixedColor: Colors.white,
           backgroundColor: Colors.blue,
           iconSize: 30.0,
-          currentIndex: 0,
+          currentIndex: 1,
           items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
