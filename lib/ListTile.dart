@@ -18,7 +18,9 @@ class Listtile  extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.remove),
-              title: Text(""),
+              title: Text("Haye"),
+              subtitle: Text("Haye tir hee"),
+              trailing: Icon(Icons.arrow_back),
             )
           ],
         ),
