@@ -6,6 +6,7 @@ import 'DefaultTabController.dart';
 import 'DrawerWidget.dart';
 import 'ListTile.dart';
 import 'ListView.dart';
+import 'SelectableText.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Mytable(),
+      home: MySelectabletext(),
     );
   }
 }
